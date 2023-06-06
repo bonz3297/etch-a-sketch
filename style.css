@@ -1,0 +1,22 @@
+#drawBoard {
+	border: 2px solid black;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	box-sizing: border-box;
+	border: 0.1px solid black;
+}
+
+.btn-on {
+	background-color: green;
+	color: white;
+}
+
+#clear-btn {
+	background-color: red;
+	color: white;
+}
